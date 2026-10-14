@@ -30,7 +30,7 @@ f.close()
 # Create Fred Object
 fred = Fred(api_key = fred_key) #main object for searchign and data pulls
 
-'''
+r'''
 if i log in from Zbook, my python is in a diff path, so i need to add below for BbgTicker & FredTicker
 import sys
 sys.path.append(
@@ -228,7 +228,7 @@ class FredTicker:
 cache_dir = (r"C:\Users\CP85VC\OneDrive - ING\BWAM\MacroData")
 
 
-'''
+r'''
 test = FredTicker('FEDFUNDS', cache_dir)
 
 df_test =  test.update(start_date= dt.datetime(1940,5,5), end_date= None)
